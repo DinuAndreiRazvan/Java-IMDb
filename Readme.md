@@ -1,9 +1,8 @@
 # CLI IMDb App
 
 ## Mod de Implementare
-    In vederea realizarii functionalitatiilor aplicatiei am utilizat clase, interfete si
-    enumerarile, folosind principiile programari orientate pe obiecte si diferite sabloane
-    de proiectare. In continuare, va prezint informatii  sugestive cu privire la implementare :
+In vederea realizarii functionalitatiilor aplicatiei am utilizat clase, interfete si enumerarile, folosind principiile programari orientate pe obiecte si diferite sabloane de proiectare. In continuare, va prezint informatii sugestive cu privire la implementare :
+
 - Main - Clasa are o singura functie main() care apeleaza metoda run() din clasa IMDB si astfel porneste aplicatia
 - IMDB – Clasa care detine datele aplicatiei si functionalitati ale interactiunii 
 utilizatorului cu informatiile din sistem. Aceasta clasa foloseste Singleton Pattern pentru a fi instantiata o singura data. Am schimbat in unele cazuri  afisarea unei liste de elemente pentru a fi prelucrate cu o cautare prin introducerea unui identificator unic (username, name, title etc.), deoarece in cazul dezvoltarii datelor din sistem, implementarea ulterioara este mai eficienta
